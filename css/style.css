@@ -150,12 +150,13 @@ font-family: 'Conv_Ossem-Rounded';
     width: 1278px;
     height:375px;
     margin-left: 300px;
-    margin-top: 2px;
+    margin-top: 0.5px;
     border: 1px solid black;
+    float: left;
 
     /*Градиент*/
 
-    width: 1278px;
+    width: 1000px;
 margin-left: 300px;
 background: rgb(231,247,249); /* Old browsers */
 background: -moz-linear-gradient(-45deg, rgba(231,247,249,1) 0%, rgba(231,247,249,1) 7%, rgba(231,247,249,1) 12%, rgba(253,254,255,1) 12%, rgba(236,244,248,1) 41%, rgba(212,230,240,1) 52%, rgba(202,220,236,1) 75%, rgba(192,209,230,1) 100%); /* FF3.6-15 */
@@ -164,6 +165,19 @@ background: linear-gradient(135deg, rgba(231,247,249,1) 0%,rgba(231,247,249,1) 7
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7f7f9', endColorstr='#c0d1e6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
+
+.news-currency{
+    float: left;
+    width: 276px;
+    height: 375px;
+    border: 1px solid black;
+    margin-top: 1px;
+}
+
+.content-wrap{
+    overflow: hidden
+}
+
 
 
 .news-gradient{
@@ -174,6 +188,11 @@ background: -moz-linear-gradient(-45deg, rgba(231,247,249,1) 0%, rgba(231,247,24
 background: -webkit-linear-gradient(-45deg, rgba(231,247,249,1) 0%,rgba(231,247,249,1) 7%,rgba(231,247,249,1) 12%,rgba(253,254,255,1) 12%,rgba(236,244,248,1) 41%,rgba(212,230,240,1) 52%,rgba(202,220,236,1) 75%,rgba(192,209,230,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg, rgba(231,247,249,1) 0%,rgba(231,247,249,1) 7%,rgba(231,247,249,1) 12%,rgba(253,254,255,1) 12%,rgba(236,244,248,1) 41%,rgba(212,230,240,1) 52%,rgba(202,220,236,1) 75%,rgba(192,209,230,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7f7f9', endColorstr='#c0d1e6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.usa-currency{
+    float: left;
+    margin-right: 50px;
 }
 
 
