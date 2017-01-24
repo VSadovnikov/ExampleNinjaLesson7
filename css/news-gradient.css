@@ -1,0 +1,8 @@
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e7f7f9+0,e7f7f9+7,e7f7f9+12,fdfeff+12,ecf4f8+41,d4e6f0+52,cadcec+75,c0d1e6+100 */
+.news-gradient{
+background: rgb(231,247,249); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(231,247,249,1) 0%, rgba(231,247,249,1) 7%, rgba(231,247,249,1) 12%, rgba(253,254,255,1) 12%, rgba(236,244,248,1) 41%, rgba(212,230,240,1) 52%, rgba(202,220,236,1) 75%, rgba(192,209,230,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(231,247,249,1) 0%,rgba(231,247,249,1) 7%,rgba(231,247,249,1) 12%,rgba(253,254,255,1) 12%,rgba(236,244,248,1) 41%,rgba(212,230,240,1) 52%,rgba(202,220,236,1) 75%,rgba(192,209,230,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(231,247,249,1) 0%,rgba(231,247,249,1) 7%,rgba(231,247,249,1) 12%,rgba(253,254,255,1) 12%,rgba(236,244,248,1) 41%,rgba(212,230,240,1) 52%,rgba(202,220,236,1) 75%,rgba(192,209,230,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7f7f9', endColorstr='#c0d1e6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
