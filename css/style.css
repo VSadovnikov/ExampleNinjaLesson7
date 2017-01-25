@@ -129,7 +129,15 @@ font-size: 24px;
 
 
 
-.contacts{
+.world_news{
+   width: 1278px;
+   height: 500px;
+   margin-left: 300px;
+   margin-top: 2px;
+   border: 1px solid black;
+}
+
+.ukraine_news{
    width: 1278px;
    height: 500px;
    margin-left: 300px;
@@ -216,10 +224,6 @@ margin-left: 300px;
 width: 1280px;
 margin-left: 300px;
 }
-
-
-
-
 
 .currency-title{
   font-size: 18px;
@@ -332,7 +336,7 @@ padding-bottom: 7px;
 }
 .yuy{
     float: left;
-    height: 127px;
+    height: 220px;
     width: 278px;
     border: 1px solid black;
     margin-top: 1px;
