@@ -383,6 +383,208 @@ height: 316px;
     margin-left: 25px;
 }
 
+.world-news-title{
+   font-family: 'Conv_Ossem-Rounded';
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+
+}
+.world-news-item-list{
+    float: left;
+    margin-top: 70px;
+    margin-right: 1px;
+    margin-left: 6.5px;
+    padding-right: 2px;
+    width: 410px;
+    height: 400px;
+    list-style: none;
+    border-bottom: 1.5px dashed #457269;
+    border-top: 1.5px dashed #457269;
+    border-right: 1px dashed #457269;
+    border-left: 1px dashed #457269;
+}
+
+
+.world-new-1-title{
+     margin-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: 'Conv_Ossem-Rounded';
+}
+
+.world-new-1-img{
+    float: left;
+    margin: 7px 7px 7px 5px;
+
+
+}
+
+
+.world-new-1-text{
+  font-size: 16px;
+padding-left: 4px;
+font-family: 'Conv_Ossem-Rounded';
+
+
+
+}
+
+.world-new-2-title{
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: 'Conv_Ossem-Rounded';
+
+}
+
+.world-new-2-img{
+    float: left;
+    margin: 7px 7px 7px 5px;
+
+
+}
+
+
+.world-new-2-text{
+  font-size: 16px;
+padding-left: 4px;
+font-family: 'Conv_Ossem-Rounded';
+
+
+
+}
+
+.world-new-3-title{
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: 'Conv_Ossem-Rounded';
+
+}
+
+.world-new-3-img{
+    float: left;
+    margin: 7px 7px 7px 5px;
+}
+
+.ukraine-new-3-text{
+font-size: 16px;
+padding-left: 4px;
+font-family: 'Conv_Ossem-Rounded';
+}
+
+/*Новости Украины*/
+
+.ukraine-news-item-list{
+    float: left;
+    margin-top: 70px;
+    margin-right: 1px;
+    margin-left: 6.5px;
+    padding-right: 2px;
+    width: 412px;
+    height: 400px;
+    list-style: none;
+    border-bottom: 1.5px dashed #457269;
+    border-top: 1.5px dashed #457269;
+    border-right: 1px dashed #457269;
+    border-left: 1px dashed #457269;
+
+
+}
+
+.ukraine-news-title{
+   font-family: 'Conv_Ossem-Rounded';
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: absolute;
+    color: black;
+
+}
+
+.ukraine-1-new-text{
+font-size: 16px;
+padding-left: 4px;
+font-family: 'Conv_Ossem-Rounded';
+
+
+
+}
+
+.ukraine-new-1-img{
+    float: left;
+    margin: 7px 7px 7px 5px;
+
+
+}
+
+.ukraine-new-1-title{
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: 'Conv_Ossem-Rounded';
+
+}
+
+.ukraine-2-new-text{
+  font-size: 16px;
+padding-left: 4px;
+font-family: 'Conv_Ossem-Rounded';
+
+
+
+}
+
+.ukraine-new-2-img{
+    float: left;
+    margin: 7px 7px 7px 5px;
+
+
+}
+
+.ukraine-new-2-title{
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: 'Conv_Ossem-Rounded';
+
+}
+
+.ukraine-3-new-text{
+  font-size: 16px;
+padding-left: 4px;
+font-family: 'Conv_Ossem-Rounded';
+
+
+
+}
+
+.ukraine-new-3-img{
+    float: left;
+    margin: 7px 7px 7px 5px;
+
+
+}
+
+.ukraine-new-3-title{
+    margin-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: 'Conv_Ossem-Rounded';
+
+}
+
+
+.a:visited{
+    color: firebrick;
+}
+
+
+
+
 
 
 
