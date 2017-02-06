@@ -35,6 +35,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8b', end
 
 .header-logo-link{
     display: block;
+    text-decoration: none;
 }
 
 .header-logo-1{
@@ -49,9 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8b', end
     color:black;
 }
 
-.header-logo-link{
-    text-decoration: none;
-}
+
 
 .header-nav{
     float: right;
@@ -129,20 +128,21 @@ font-size: 24px;
 
 
 
-.world_news{
+#world_news{
    width: 1278px;
    height: 500px;
    margin-left: 300px;
    margin-top: 2px;
-   border: 1px solid black;
+   border-top: 1px solid firebrick;
 }
 
-.ukraine_news{
+#ukraine_news{
    width: 1278px;
    height: 500px;
    margin-left: 300px;
    margin-top: 2px;
-   border: 1px solid black;
+   border-top: 1px solid firebrick;
+   border-bottom: 1px solid firebrick;
 }
 
 .footer{
@@ -150,7 +150,7 @@ font-size: 24px;
    height: 100px;
    margin-left: 300px;
    margin-top: 2px;
-   border: 1px solid black;
+
     margin-bottom: 20px;
 }
 
@@ -342,6 +342,10 @@ padding-bottom: 7px;
     margin-top: 1px;
 }
 
+.calendar{
+    margin-left: 50px;
+}
+
 
 .nws_categ_items1{
  background: url(../img/world_ecomic.png) no-repeat;
@@ -399,7 +403,7 @@ height: 316px;
     margin-left: 6.5px;
     padding-right: 2px;
     width: 410px;
-    height: 400px;
+    height: auto;
     list-style: none;
     border-bottom: 1.5px dashed #457269;
     border-top: 1.5px dashed #457269;
@@ -470,6 +474,16 @@ font-family: 'Conv_Ossem-Rounded';
     margin: 7px 7px 7px 5px;
 }
 
+
+.world-new-3-text{
+  font-size: 16px;
+padding-left: 4px;
+font-family: 'Conv_Ossem-Rounded';
+
+}
+
+
+
 .ukraine-new-3-text{
 font-size: 16px;
 padding-left: 4px;
@@ -485,7 +499,7 @@ font-family: 'Conv_Ossem-Rounded';
     margin-left: 6.5px;
     padding-right: 2px;
     width: 412px;
-    height: 400px;
+    height: auto;
     list-style: none;
     border-bottom: 1.5px dashed #457269;
     border-top: 1.5px dashed #457269;
@@ -581,6 +595,124 @@ font-family: 'Conv_Ossem-Rounded';
 .a:visited{
     color: firebrick;
 }
+
+
+.footer-logo{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.footer-logo-link{
+    text-decoration: none;
+}
+
+
+.footer-logo-1{
+    font-family: 'Conv_Ossem-Rounded';
+    font-size: 22px;
+    color:firebrick;
+
+}
+
+.footer-logo-2{
+    font-family: 'Conv_Ossem-Rounded';
+    font-size: 26px;
+    color:black;
+}
+
+
+.footer-text-phone{
+ font-family: 'Conv_Ossem-Rounded';
+ margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.footer-text-email{
+ font-family: 'Conv_Ossem-Rounded';
+}
+
+.footer-email-logo{
+    color: firebrick;
+}
+
+.partner-sites-list{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: 'Conv_Ossem-Rounded';
+    float: right;
+    text-align: center;
+    margin-right: -600px;
+
+}
+
+.footer-list_item1{
+ float: left;
+margin-right: 470px;
+
+    height: 100px;
+
+}
+
+
+.footer-list_item{
+ float: left;
+margin-right: 470px;
+
+
+    height: 100px;
+
+}
+
+.footer-partner-2{
+    font-family: 'Conv_Ossem-Rounded';
+    font-size: 20px;
+    color: black;
+
+}
+
+.footer-partner-1{
+ font-family: 'Conv_Ossem-Rounded';
+    font-size: 22px;
+    color: firebrick;
+    margin-right: -5px;
+
+
+}
+
+.footer-list-main{
+    width: 1280px;
+}
+
+.partner-sites-list{
+    margin-bottom: 5px;
+
+    margin-left: 20px;
+}
+
+footer-partner-1ist-item{
+ padding-top: 25px;
+
+}
+
+
+.footer-partner-1ist-item a{
+   font-family: 'Conv_Ossem-Rounded';
+    font-size: 16px;
+    color:darkmagenta;
+    letter-spacing: 3;
+}
+
+.copyright{
+    font-size: 11px;
+    font-family: 'Conv_Ossem-Rounded';
+    color: black;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
 
 
 
