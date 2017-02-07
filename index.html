@@ -10,6 +10,31 @@
   <link rel="icon" type="image/ x-icon" href="img/title-logo.png">
   <link href="js/bootstrap.js">
   <link href="js/npm.js">
+  <style>
+		/*div - контейнер для новости*/
+		.rss{margin-left:-20px;  padding-bottom: 15px; padding-top: 5px;}
+
+		/*div - контейнер для всей ленты*/
+		.rss_container{padding:10px; font-family: 'Conv_Ossem-Rounded';}
+
+		/*div - контейнер для медиа-файлов*/
+		.media{background-color:#f0f0f0; background-image:url(http://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
+
+		/*div - ссылка на медиа-файл*/
+		.media a{color:#00000f;font-size:0.7em; padding: 5px;}
+
+        .media a:visted{color:firebrick;font-size:0.7em; padding: 5px;}
+
+		/*div - изображение медиа-файл*/
+		.media a img{height:16px; border:0px; vertical-align: middle; text-decoration: none; margin:3px;}
+
+		/*div - контейнер даты новости и заголовка rss-канала*/
+		.rssdate{font-size:12px; font-family: 'Conv_Ossem-Rounded'; color:firebrick; margin-left:1px; margin-top: 2px; }
+
+		/*div - ссылка даты новости и заголовка rss-канала*/
+		.rssdate a{color: firebrick;}
+
+		</style>
   <title>Finance Info</title>
  </head>
     <body class="main">
@@ -38,16 +63,11 @@
     <h2 class="news-title">Новини світу фінансів</h2>
     </div>
     <div class="content-wrap">
-    <div class="content-news">
-    <ul class="news-categories">
-    <li class="nws_categ_items1">
-    <a class="category_item-link1" href="#world_news">Cвіт</a>
-    </li>
-    <li class="nws_categ_items2">
-    <a class="category_item-link2" href="#ukraine_news">Україна</a>
-    </li>
-    </ul>
-
+    <div class="content-news" scrolling="vertical">
+        <p class="last-new-title">Останні новини</p>
+        <div class="last-news-content">
+          <script type="text/javascript">var charset='UTF-8';var t=document.getElementsByTagName('meta');for(var i=0; i<t.length; i++){var rg=/charset=["']?([^"']*)/g;if(t[i].content.indexOf('charset')!=-1){charset=rg.exec(t[i].content)[1];break;}}document.write('<script type="text/javascript" src="http://www.rss-script.ru/rss-script.php?charset='+charset+'&rss[]=http%3A%2F%2Fnews.finance.ua%2Fru%2Frss&media=1&notitle=1&count=10"><\/script>');</script><noscript>Для просмотра этой RSS ленты требуется поддержка Java Script</noscript>
+        </div>
     </div>
     <div class="news-currency">
     <h3 class="currency-block-name">Курс валют</h3>
@@ -80,9 +100,7 @@
         </div>
     </div>
     <div class="yuy">
-    <!-- Minfin.com.ua currency informer 275x120 yellow-->
-<div id="minfin-informer-m1Fn-currency">Загружаем <a href="http://minfin.com.ua/currency/" target="_blank">курсы валют</a> от minfin.com.ua</a></div><script type="text/javascript">var iframe = '<ifra'+'me width="275" height="120" fram'+'eborder="0" src="http://informer.minfin.com.ua/gen/course/?color=yellow" vspace="0" scrolling="no" hspace="0" allowtransparency="true"style="width:275px;height:120px;ove'+'rflow:hidden;"></iframe>';var cl = 'minfin-informer-m1Fn-currency';document.getElementById(cl).innerHTML = iframe; </script><noscript><img src="http://informer.minfin.com.ua/gen/img.png" width="1" height="1" alt="minfin.com.ua: курсы валют" title="Курс валют" border="0" /></noscript>
-<!-- Minfin.com.ua currency informer 275x120 yellow-->
+
     </div>
     </div>
 

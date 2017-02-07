@@ -183,22 +183,36 @@ font-family: 'Conv_Ossem-Rounded';
 
 .content-news{
 
-    width: 1278px;
-    height:375px;
+    height:496px;
     margin-left: 300px;
     margin-top: 0.5px;
-    /*border: 1px solid black; */
     float: left;
+    width: 996px;
+    margin-left: 300px;
+    con
+}
+
+.last-new-title{
+ font-family: 'Conv_Ossem-Rounded';
+ font-size: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid firebrick;
+    width: 990px;
+}
+
+.div-last-news-title{
+    width: 990px;
+}
 
 
-
-
-
-
-width: 1000px;
-margin-left: 300px;
-
-
+.last-news-content{
+    height: 460px;
+    width: 990px;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    overflow-y: scroll;
 }
 
 
