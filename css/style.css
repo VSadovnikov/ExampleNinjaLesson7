@@ -3,11 +3,12 @@
 */
 /* Header styles */
 .main{
+width: auto;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cdeb8b+10,85dddd+100 */
-background: rgb(205,235,139); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(205,235,139,1) 10%, rgba(133,221,221,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(205,235,139,1) 10%,rgba(133,221,221,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(205,235,139,1) 10%,rgba(133,221,221,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: rgb(205,235,139) no-repeat; /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(205,235,139,1) 10%, rgba(133,221,221,1) 100%) no-repeat; /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(205,235,139,1) 10%,rgba(133,221,221,1) 100%) no-repeat; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(205,235,139,1) 10%,rgba(133,221,221,1) 100%) no-repeat; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8b', endColorstr='#85dddd',GradientType=1 ); /* IE6-9 */
 
 }
@@ -76,6 +77,8 @@ font-size: 24px;
     color: black;
 }
 
+
+
 .header-nav-list-item a:hover{
     text-decoration:underline;
     color: black;
@@ -85,6 +88,8 @@ font-size: 24px;
     color:darkred;
     text-decoration: none;
 }
+ 
+
 
 .header-list-nav{
 
@@ -145,7 +150,7 @@ font-size: 24px;
    border-bottom: 1px solid firebrick;
 }
 
-.footer{
+#footer{
    width: 1278px;
    height: 100px;
    margin-left: 300px;
@@ -726,6 +731,94 @@ footer-partner-1ist-item{
     margin-top: 5px;
     padding-bottom: 5px;
 }
+
+
+.dropdown-news{
+    opacity: 0;
+    
+    color: firebrick;
+     text-align: right;
+    
+}
+
+.dropdown-news:hover {
+    transition: 1s all;
+    color: black;
+    
+}
+
+.dropdown-news a:visited{
+    color: firebrick;
+}
+
+.dropdown-news a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.dropdown-news a{
+    text-decoration: none;
+}
+
+/**/
+.header-nav-list-item-news{
+float: left;
+font-family: 'Conv_Ossem-Rounded';
+font-size: 24px;
+    margin-left: 25px;
+    border-bottom: 1px solid transparent;
+    display: block;
+   
+}
+.header-nav-list-item-news:hover{
+    text-decoration:underline;
+    color: black;
+}
+
+.header-nav-list-item-news > a > ul > li:hover{
+    text-decoration:underline;
+    color: black;
+    
+}
+
+.header-nav-list-item-news a:hover{
+    text-decoration:underline;
+    color: black;
+}
+
+.header-nav-list-item-news > a{
+    color:darkred;
+    text-decoration: none;
+}
+
+.news-down-btn{
+    position: absolute;
+    margin-top: 3px;
+    
+}
+
+
+/**/
+
+
+.header-list-nav ul{
+    opacity: 0;
+}
+
+.header-list-nav li:hover ul{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
