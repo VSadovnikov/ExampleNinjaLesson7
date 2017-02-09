@@ -16,7 +16,7 @@
   <link href="js/npm.js">
   <style>
 		/*div - контейнер для новости*/
-		.rss{margin-left:-20px;  padding-bottom: 15px; padding-top: 5px;}
+		.rss{margin-left:-20px;  padding-bottom: 15px; padding-top: 5px; color: firebrick}
 
 		/*div - контейнер для всей ленты*/
 		.rss_container{padding:10px; font-family: 'Conv_Ossem-Rounded';}
@@ -25,7 +25,7 @@
 		.media{background-color:#f0f0f0; background-image:url(http://www.rss-script.ru/img/skrepka.gif); background-repeat:no-repeat; padding-top: 5px;padding-bottom: 5px;padding-left: 13px}
 
 		/*div - ссылка на медиа-файл*/
-		.media a{color:#00000f;font-size:0.7em; padding: 5px;}
+		.media a{color:firebrick;font-size:0.7em; padding: 5px;}
 
         .media a:visted{color:firebrick;font-size:0.7em; padding: 5px;}
 
@@ -66,7 +66,41 @@
         </div>
         </div>
         <div class="header-text-main">Головний портал світу фінансів</div>
-        <div class="header-question-btn"><a href="#">Запитати нас</a></div>
+        <div class="header-question-btn"><a href="#win1">Запитати нас</a>
+            <!-- Модальное окно №1 -->
+   <a href="#x" class="overlay" id="win1"></a>
+   <div class="popup">
+    <a class="close"title="Закрыть" href="#close"></a>
+       <h2 class="quest-form-head">Запитати нас</h2>
+	<form method="post" action="">
+		<p class="note"><span class="req">* </span>- Обов'язково до заповнення</p>
+<div class="row">
+<label for="name">Ваше Имя <span class="req">*</span></label>
+<input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="Стив Джобс" required>
+</div>
+
+<div class="row">
+<label for="email">E-mail Адрес <span class="req">*</span></label>
+<input type="email" name="email" id="email" class="txt" tabindex="2" placeholder=" address@mail.ru" required>
+</div>
+
+<div class="row">
+<label for="subject">Тема <span class="req">*</span></label>
+<input type="text" name="subject" id="subject" class="txt" tabindex="3" placeholder="Тема письма" required>
+</div>
+
+<div class="row">
+<label for="message">Сообщение <span class="req">*</span></label>
+<textarea name="message" id="message" class="txtarea" tabindex="4" required></textarea>
+</div>
+
+<div class="center">
+<input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Отправить Сообщение">
+</div>
+	</form>
+        </div>
+        </div>
+        </div>
     </header>
     <div class="newgt pushs-headert">
     <h2 class="news-title">Новини світу фінансів</h2>
